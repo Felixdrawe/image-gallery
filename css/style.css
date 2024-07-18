@@ -1097,6 +1097,10 @@ video {
     width: 33.333333%;
   }
 
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
   .md\:max-w-2xl {
     max-width: 42rem;
   }
@@ -1107,6 +1111,18 @@ video {
 
   .md\:max-w-none {
     max-width: none;
+  }
+
+  .md\:max-w-4xl {
+    max-width: 56rem;
+  }
+
+  .md\:max-w-screen-sm {
+    max-width: 640px;
+  }
+
+  .md\:max-w-screen-md {
+    max-width: 768px;
   }
 
   .md\:grid-cols-2 {
