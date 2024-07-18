@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Image Gallery</title>
+    <!-- <style>
+      * {
+        outline: 0.1px solid red;
+      }
+    </style> -->
+  </head>
+  <body class="">
+    <main
+      class="bg-[#ECFEFF] grid items-center justify-center min-h-screen p-4">
+      <!--Main container-->
+
+      <section
+        class="flex flex-col items-center bg-white rounded-2xl shadow-lg max-w-lg md:max-w-none mx-2 p-4 space-y-4">
+        <header class="flex flex-col space-y-4 items-center justify-center">
+          <div class="group">
+            <a href="">Vector</a>
+            <div
+              class="border-b-2 border-black w-3/4 mt-1 opacity-0 group-hover:opacity-100 mx-auto duration-500"></div>
+          </div>
+          <div class="group">
+            <a href="">Illustrations</a>
+            <div
+              class="border-b-2 border-black w-3/4 mt-1 opacity-0 group-hover:opacity-100 mx-auto duration-500"></div>
+          </div>
+          <div class="group">
+            <a href=""> Images</a>
+            <div
+              class="border-b-2 border-black w-3/4 mt-1 opacity-0 group-hover:opacity-100 mx-auto duration-500"></div>
+          </div>
+          <div class="group">
+            <a href=""> Icons</a>
+            <div
+              class="border-b-2 border-black w-3/4 mt-1 opacity-0 group-hover:opacity-100 mx-auto duration-500"></div>
+          </div>
+        </header>
+        <div class="flex flex-col justify-center space-y-4 w-full">
+          <div class="border-b-2 flex">
+            <input
+              type="text"
+              class="outline-none w-full placeholder:font-thin pl-4"
+              placeholder="Search" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-8 h-8 ml-2 opacity-30 hover:opacity-100 durat hover:cursor-pointer"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <circle cx="10" cy="10" r="7" />
+              <line x1="21" y1="21" x2="15" y2="15" />
+            </svg>
+          </div>
+          <button
+            class="bg-black text-white text-lg py-4 px-4 rounded hover:bg-opacity-0 hover:text-black border border-black duration-200">
+            Upload
+          </button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          <div class="relative group">
+            <img
+              src="./images/image1.jpg"
+              alt="Image 1"
+              class="w-full h-full object-cover" />
+            <div
+              class="absolute bottom-0 left-0 right-0 opacity-0 bg-black group-hover:opacity-100 bg-opacity-50 duration-200">
+              <div class="flex items-center justify-between py-2 px-4">
+                <div class="text-white">
+                  <p>Abstract Photography</p>
+                  <p class="text-sm">245 likes - 35 Shares</p>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="hover:cursor-pointer hover:fill-white duration-150"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative group">
+            <img
+              src="./images/image2.jpg"
+              alt="Image 1"
+              class="w-full h-full object-cover" />
+            <div
+              class="absolute bottom-0 left-0 right-0 opacity-0 bg-black group-hover:opacity-100 bg-opacity-50 duration-200">
+              <div class="flex items-center justify-between py-2 px-4">
+                <div class="text-white">
+                  <p>Abstract Photography</p>
+                  <p class="text-sm">245 likes - 35 Shares</p>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="hover:cursor-pointer hover:fill-white duration-150"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative group">
+            <img
+              src="./images/image3.jpg"
+              alt="Image 1"
+              class="w-full h-full object-cover" />
+            <div
+              class="absolute bottom-0 left-0 right-0 opacity-0 bg-black group-hover:opacity-100 bg-opacity-50 duration-200">
+              <div class="flex items-center justify-between py-2 px-4">
+                <div class="text-white">
+                  <p>Abstract Photography</p>
+                  <p class="text-sm">245 likes - 35 Shares</p>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="hover:cursor-pointer hover:fill-white duration-150"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative group">
+            <img
+              src="./images/image4.jpg"
+              alt="Image 1"
+              class="w-full h-full object-cover" />
+            <div
+              class="absolute bottom-0 left-0 right-0 opacity-0 bg-black group-hover:opacity-100 bg-opacity-50 duration-200">
+              <div class="flex items-center justify-between py-2 px-4">
+                <div class="text-white">
+                  <p>Abstract Photography</p>
+                  <p class="text-sm">245 likes - 35 Shares</p>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="hover:cursor-pointer hover:fill-white duration-150"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative group">
+            <img
+              src="./images/image5.jpg"
+              alt="Image 1"
+              class="w-full h-full object-cover" />
+            <div
+              class="absolute bottom-0 left-0 right-0 opacity-0 bg-black group-hover:opacity-100 bg-opacity-50 duration-200">
+              <div class="flex items-center justify-between py-2 px-4">
+                <div class="text-white">
+                  <p>Abstract Photography</p>
+                  <p class="text-sm">245 likes - 35 Shares</p>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="hover:cursor-pointer hover:fill-white duration-150"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative group">
+            <img
+              src="./images/image6.jpg"
+              alt="Image 1"
+              class="w-full h-full object-cover" />
+            <div
+              class="absolute bottom-0 left-0 right-0 opacity-0 bg-black group-hover:opacity-100 bg-opacity-50 duration-200">
+              <div class="flex items-center justify-between py-2 px-4">
+                <div class="text-white">
+                  <p>Abstract Photography</p>
+                  <p class="text-sm">245 likes - 35 Shares</p>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="hover:cursor-pointer hover:fill-white duration-150"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
